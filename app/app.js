@@ -27,13 +27,13 @@ for(let i=0;i<notebooks.length;i++){
   const colab=element('a','Run in Colab ↗');colab.href='https://colab.research.google.com/github/solomonpromise/course-navigator/blob/main/'+file;colab.target='_blank';colab.rel='noopener';
   nav.append(download,colab);row.append(nav);$('#notebooks').append(row);
 }
-function request(type,text,timeout=120000){return new Promise((resolve,reject)=>{
+function request(type,text,timeout=300000){return new Promise((resolve,reject)=>{
   const id=++requestId,timer=setTimeout(()=>{pending.delete(id);reject(Error('The model took too long to respond. Please retry.'));},timeout);
   pending.set(id,{resolve,reject,timer});worker.postMessage({id,type,text});
 });}
 function resetWorker(){if(worker)worker.terminate();worker=null;ready=null;for(const item of pending.values()){clearTimeout(item.timer);item.reject(Error('Model worker stopped'));}pending.clear();}
 async function loadModel(){
-  if(!ready){worker=new Worker('inference-worker.js');worker.onmessage=({data})=>{const item=pending.get(data.id);if(!item)return;clearTimeout(item.timer);pending.delete(data.id);if(data.error)item.reject(Error(data.error));else item.resolve(data);};
+  if(!ready){worker=new Worker('inference-worker.js?v=2');worker.onmessage=({data})=>{const item=pending.get(data.id);if(!item)return;if(data.progress){say(data.progress);return;}clearTimeout(item.timer);pending.delete(data.id);if(data.error)item.reject(Error(data.error));else item.resolve(data);};
     worker.onerror=()=>resetWorker();ready=request('init');}
   return ready;
 }
