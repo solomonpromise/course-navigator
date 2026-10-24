@@ -1,0 +1,28 @@
+{
+  "package": "onnxruntime-web",
+  "version": "1.20.1",
+  "distribution": "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/dist/",
+  "license_source": "https://github.com/microsoft/onnxruntime/tree/v1.20.1",
+  "files": {
+    "ThirdPartyNotices.txt": {
+      "bytes": 338538,
+      "sha256": "cf7342f7ba482ef715ae58f5f497a8d3564fa255164175aea324cd293c5701a0"
+    },
+    "LICENSE": {
+      "bytes": 1073,
+      "sha256": "2f07c72751aed99790b8a4869cf2311df85a860b22ded05fa22803587a48922c"
+    },
+    "ort-wasm-simd-threaded.wasm": {
+      "bytes": 11246032,
+      "sha256": "207d02be4591c156b0a98f024f3d58005b5b04c92274d759fb390338c63559ea"
+    },
+    "ort-wasm-simd-threaded.mjs": {
+      "bytes": 24618,
+      "sha256": "745eb7c0ce6f18a6aa521971b2877babc7ffb27eecb58ab3bc6e5ef4692672e8"
+    },
+    "ort.min.js": {
+      "bytes": 446284,
+      "sha256": "be6e560b64c03c99252eedc0e1989e9e51e44d9f191e7655c9bf011bf9f576c8"
+    }
+  }
+}

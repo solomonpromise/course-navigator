@@ -1,0 +1,2929 @@
+{
+  "protocol": "Frozen settings, section-group split, one reference seed. Test/probes not used for model, epoch, temperature or threshold selection.",
+  "runtime": {
+    "python": "3.12.15",
+    "torch": "2.14.1",
+    "device": "CPU",
+    "threads": 4
+  },
+  "models": [
+    {
+      "name": "tfidf",
+      "parameters": null,
+      "train_seconds": 0.1925374160055071,
+      "validation": {
+        "accuracy": 0.7902097902097902,
+        "macro_f1": 0.7914984655749994,
+        "confusion_matrix": [
+          [
+            34,
+            12,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            8,
+            55,
+            0,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            38,
+            5,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            0,
+            31,
+            1,
+            0
+          ],
+          [
+            0,
+            0,
+            8,
+            5,
+            40,
+            6
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            6,
+            28
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.7727272727272727,
+            "recall": 0.7391304347826086,
+            "f1-score": 0.7555555555555555,
+            "support": 46.0
+          },
+          "Training & evaluation": {
+            "precision": 0.7746478873239436,
+            "recall": 0.8461538461538461,
+            "f1-score": 0.8088235294117647,
+            "support": 65.0
+          },
+          "Representations & sequences": {
+            "precision": 0.8260869565217391,
+            "recall": 0.8085106382978723,
+            "f1-score": 0.8172043010752689,
+            "support": 47.0
+          },
+          "Transformers & attention": {
+            "precision": 0.7380952380952381,
+            "recall": 0.9393939393939394,
+            "f1-score": 0.8266666666666667,
+            "support": 33.0
+          },
+          "Pretrained applications": {
+            "precision": 0.8163265306122449,
+            "recall": 0.6779661016949152,
+            "f1-score": 0.7407407407407407,
+            "support": 59.0
+          },
+          "Model adaptation": {
+            "precision": 0.8235294117647058,
+            "recall": 0.7777777777777778,
+            "f1-score": 0.8,
+            "support": 36.0
+          },
+          "accuracy": 0.7902097902097902,
+          "macro avg": {
+            "precision": 0.7919022161741908,
+            "recall": 0.7981554563501599,
+            "f1-score": 0.7914984655749994,
+            "support": 286.0
+          },
+          "weighted avg": {
+            "precision": 0.7933255984784173,
+            "recall": 0.7902097902097902,
+            "f1-score": 0.7885363315439217,
+            "support": 286.0
+          }
+        }
+      },
+      "test": {
+        "accuracy": 0.7547169811320755,
+        "macro_f1": 0.7730045309497364,
+        "confusion_matrix": [
+          [
+            39,
+            29,
+            2,
+            0,
+            0,
+            1
+          ],
+          [
+            7,
+            54,
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            0,
+            30,
+            2,
+            5,
+            1
+          ],
+          [
+            0,
+            0,
+            1,
+            21,
+            4,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            27,
+            3
+          ],
+          [
+            0,
+            1,
+            0,
+            1,
+            5,
+            29
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.8478260869565217,
+            "recall": 0.5492957746478874,
+            "f1-score": 0.6666666666666666,
+            "support": 71.0
+          },
+          "Training & evaluation": {
+            "precision": 0.6428571428571429,
+            "recall": 0.84375,
+            "f1-score": 0.7297297297297297,
+            "support": 64.0
+          },
+          "Representations & sequences": {
+            "precision": 0.8823529411764706,
+            "recall": 0.7894736842105263,
+            "f1-score": 0.8333333333333334,
+            "support": 38.0
+          },
+          "Transformers & attention": {
+            "precision": 0.875,
+            "recall": 0.8076923076923077,
+            "f1-score": 0.84,
+            "support": 26.0
+          },
+          "Pretrained applications": {
+            "precision": 0.627906976744186,
+            "recall": 0.9,
+            "f1-score": 0.7397260273972602,
+            "support": 30.0
+          },
+          "Model adaptation": {
+            "precision": 0.8529411764705882,
+            "recall": 0.8055555555555556,
+            "f1-score": 0.8285714285714286,
+            "support": 36.0
+          },
+          "accuracy": 0.7547169811320755,
+          "macro avg": {
+            "precision": 0.7881473873674848,
+            "recall": 0.7826278870177128,
+            "f1-score": 0.7730045309497364,
+            "support": 265.0
+          },
+          "weighted avg": {
+            "precision": 0.7817396707046901,
+            "recall": 0.7547169811320755,
+            "f1-score": 0.7530681318988374,
+            "support": 265.0
+          }
+        }
+      },
+      "questions": {
+        "accuracy": 0.6666666666666666,
+        "macro_f1": 0.6601824101824102,
+        "confusion_matrix": [
+          [
+            4,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            2,
+            4,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            4,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            5,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            5,
+            1
+          ],
+          [
+            1,
+            1,
+            1,
+            0,
+            1,
+            2
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.5,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.5714285714285714,
+            "support": 6.0
+          },
+          "Training & evaluation": {
+            "precision": 0.5714285714285714,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.6153846153846154,
+            "support": 6.0
+          },
+          "Representations & sequences": {
+            "precision": 0.8,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.7272727272727273,
+            "support": 6.0
+          },
+          "Transformers & attention": {
+            "precision": 0.8333333333333334,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.8333333333333334,
+            "support": 6.0
+          },
+          "Pretrained applications": {
+            "precision": 0.7142857142857143,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.7692307692307693,
+            "support": 6.0
+          },
+          "Model adaptation": {
+            "precision": 0.6666666666666666,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.4444444444444444,
+            "support": 6.0
+          },
+          "accuracy": 0.6666666666666666,
+          "macro avg": {
+            "precision": 0.6809523809523811,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.6601824101824102,
+            "support": 36.0
+          },
+          "weighted avg": {
+            "precision": 0.6809523809523809,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.6601824101824102,
+            "support": 36.0
+          }
+        }
+      }
+    },
+    {
+      "name": "rnn",
+      "config": {
+        "seed": 42,
+        "batch_size": 32,
+        "epochs": 20,
+        "patience": 5,
+        "learning_rate": 0.002,
+        "weight_decay": 0.01,
+        "max_grad_norm": 1.0
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 1.8369566340132817,
+          "validation_macro_f1": 0.15472816396053996,
+          "validation_loss": 1.8294408321380615
+        },
+        {
+          "epoch": 2,
+          "train_loss": 1.6835220366294537,
+          "validation_macro_f1": 0.1532453938036187,
+          "validation_loss": 1.8485145568847656
+        },
+        {
+          "epoch": 3,
+          "train_loss": 1.5575662018555982,
+          "validation_macro_f1": 0.2153855952734216,
+          "validation_loss": 1.859998106956482
+        },
+        {
+          "epoch": 4,
+          "train_loss": 1.3846022494131083,
+          "validation_macro_f1": 0.2389228819044633,
+          "validation_loss": 1.8149516582489014
+        },
+        {
+          "epoch": 5,
+          "train_loss": 1.21288170266608,
+          "validation_macro_f1": 0.1984348381064075,
+          "validation_loss": 1.9653249979019165
+        },
+        {
+          "epoch": 6,
+          "train_loss": 1.0567799672596063,
+          "validation_macro_f1": 0.2382560378438546,
+          "validation_loss": 1.9771995544433594
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.8855631702845539,
+          "validation_macro_f1": 0.20953327629777463,
+          "validation_loss": 2.0353376865386963
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.7164800918965812,
+          "validation_macro_f1": 0.24443550121274638,
+          "validation_loss": 2.1959965229034424
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.5685402972315075,
+          "validation_macro_f1": 0.2446438993216675,
+          "validation_loss": 2.237346649169922
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.45296707593034846,
+          "validation_macro_f1": 0.2528169624451038,
+          "validation_loss": 2.2948496341705322
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.34817752879823277,
+          "validation_macro_f1": 0.26446249877406447,
+          "validation_loss": 2.477837562561035
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.24785742694690366,
+          "validation_macro_f1": 0.269694581697399,
+          "validation_loss": 2.5876588821411133
+        },
+        {
+          "epoch": 13,
+          "train_loss": 0.16047028632684116,
+          "validation_macro_f1": 0.25188342915940193,
+          "validation_loss": 2.8809444904327393
+        },
+        {
+          "epoch": 14,
+          "train_loss": 0.11353488082840084,
+          "validation_macro_f1": 0.2739586630520577,
+          "validation_loss": 2.9346866607666016
+        },
+        {
+          "epoch": 15,
+          "train_loss": 0.08517782628337707,
+          "validation_macro_f1": 0.2832525301434318,
+          "validation_loss": 3.1696255207061768
+        },
+        {
+          "epoch": 16,
+          "train_loss": 0.05094994128767795,
+          "validation_macro_f1": 0.24204234038308528,
+          "validation_loss": 3.4716882705688477
+        },
+        {
+          "epoch": 17,
+          "train_loss": 0.02939627845953843,
+          "validation_macro_f1": 0.26837838787243556,
+          "validation_loss": 3.3541789054870605
+        },
+        {
+          "epoch": 18,
+          "train_loss": 0.021632189418869303,
+          "validation_macro_f1": 0.2786612168333375,
+          "validation_loss": 3.4030120372772217
+        },
+        {
+          "epoch": 19,
+          "train_loss": 0.018036382783089548,
+          "validation_macro_f1": 0.2697166641423619,
+          "validation_loss": 3.6175708770751953
+        },
+        {
+          "epoch": 20,
+          "train_loss": 0.014943703868698567,
+          "validation_macro_f1": 0.2551218157234951,
+          "validation_loss": 3.7765583992004395
+        }
+      ],
+      "train_seconds": 6.0215090840356424,
+      "parameters": 385926,
+      "trainable_parameters": 385926,
+      "validation": {
+        "accuracy": 0.2902097902097902,
+        "macro_f1": 0.2832525301434318,
+        "confusion_matrix": [
+          [
+            17,
+            11,
+            5,
+            7,
+            3,
+            3
+          ],
+          [
+            23,
+            18,
+            10,
+            8,
+            5,
+            1
+          ],
+          [
+            7,
+            11,
+            7,
+            5,
+            7,
+            10
+          ],
+          [
+            10,
+            9,
+            4,
+            5,
+            4,
+            1
+          ],
+          [
+            7,
+            7,
+            5,
+            10,
+            19,
+            11
+          ],
+          [
+            2,
+            4,
+            4,
+            1,
+            8,
+            17
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.25757575757575757,
+            "recall": 0.3695652173913043,
+            "f1-score": 0.30357142857142855,
+            "support": 46.0
+          },
+          "Training & evaluation": {
+            "precision": 0.3,
+            "recall": 0.27692307692307694,
+            "f1-score": 0.288,
+            "support": 65.0
+          },
+          "Representations & sequences": {
+            "precision": 0.2,
+            "recall": 0.14893617021276595,
+            "f1-score": 0.17073170731707318,
+            "support": 47.0
+          },
+          "Transformers & attention": {
+            "precision": 0.1388888888888889,
+            "recall": 0.15151515151515152,
+            "f1-score": 0.14492753623188406,
+            "support": 33.0
+          },
+          "Pretrained applications": {
+            "precision": 0.41304347826086957,
+            "recall": 0.3220338983050847,
+            "f1-score": 0.3619047619047619,
+            "support": 59.0
+          },
+          "Model adaptation": {
+            "precision": 0.3953488372093023,
+            "recall": 0.4722222222222222,
+            "f1-score": 0.43037974683544306,
+            "support": 36.0
+          },
+          "accuracy": 0.2902097902097902,
+          "macro avg": {
+            "precision": 0.2841428269891364,
+            "recall": 0.2901992894282676,
+            "f1-score": 0.2832525301434318,
+            "support": 286.0
+          },
+          "weighted avg": {
+            "precision": 0.2934753200655398,
+            "recall": 0.2902097902097902,
+            "f1-score": 0.28789278493810216,
+            "support": 286.0
+          }
+        }
+      },
+      "test": {
+        "accuracy": 0.3169811320754717,
+        "macro_f1": 0.28519331277840027,
+        "confusion_matrix": [
+          [
+            28,
+            26,
+            9,
+            3,
+            3,
+            2
+          ],
+          [
+            15,
+            27,
+            8,
+            5,
+            6,
+            3
+          ],
+          [
+            5,
+            7,
+            8,
+            6,
+            6,
+            6
+          ],
+          [
+            5,
+            7,
+            1,
+            6,
+            5,
+            2
+          ],
+          [
+            4,
+            2,
+            5,
+            2,
+            8,
+            9
+          ],
+          [
+            4,
+            6,
+            4,
+            3,
+            12,
+            7
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.45901639344262296,
+            "recall": 0.39436619718309857,
+            "f1-score": 0.42424242424242425,
+            "support": 71.0
+          },
+          "Training & evaluation": {
+            "precision": 0.36,
+            "recall": 0.421875,
+            "f1-score": 0.38848920863309355,
+            "support": 64.0
+          },
+          "Representations & sequences": {
+            "precision": 0.22857142857142856,
+            "recall": 0.21052631578947367,
+            "f1-score": 0.2191780821917808,
+            "support": 38.0
+          },
+          "Transformers & attention": {
+            "precision": 0.24,
+            "recall": 0.23076923076923078,
+            "f1-score": 0.23529411764705882,
+            "support": 26.0
+          },
+          "Pretrained applications": {
+            "precision": 0.2,
+            "recall": 0.26666666666666666,
+            "f1-score": 0.22857142857142856,
+            "support": 30.0
+          },
+          "Model adaptation": {
+            "precision": 0.2413793103448276,
+            "recall": 0.19444444444444445,
+            "f1-score": 0.2153846153846154,
+            "support": 36.0
+          },
+          "accuracy": 0.3169811320754717,
+          "macro avg": {
+            "precision": 0.28816118872647983,
+            "recall": 0.2864413091421523,
+            "f1-score": 0.28519331277840027,
+            "support": 265.0
+          },
+          "weighted avg": {
+            "precision": 0.3216812580851106,
+            "recall": 0.3169811320754717,
+            "f1-score": 0.3171393383653975,
+            "support": 265.0
+          }
+        }
+      },
+      "questions": {
+        "accuracy": 0.2222222222222222,
+        "macro_f1": 0.213980463980464,
+        "confusion_matrix": [
+          [
+            3,
+            1,
+            1,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            1,
+            1,
+            1,
+            0,
+            1
+          ],
+          [
+            0,
+            1,
+            2,
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            0,
+            3,
+            1,
+            1,
+            1
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.5,
+            "recall": 0.5,
+            "f1-score": 0.5,
+            "support": 6.0
+          },
+          "Training & evaluation": {
+            "precision": 0.16666666666666666,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.16666666666666666,
+            "support": 6.0
+          },
+          "Representations & sequences": {
+            "precision": 0.125,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.14285714285714285,
+            "support": 6.0
+          },
+          "Transformers & attention": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6.0
+          },
+          "Pretrained applications": {
+            "precision": 0.2857142857142857,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.3076923076923077,
+            "support": 6.0
+          },
+          "Model adaptation": {
+            "precision": 0.16666666666666666,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.16666666666666666,
+            "support": 6.0
+          },
+          "accuracy": 0.2222222222222222,
+          "macro avg": {
+            "precision": 0.20734126984126985,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.213980463980464,
+            "support": 36.0
+          },
+          "weighted avg": {
+            "precision": 0.20734126984126985,
+            "recall": 0.2222222222222222,
+            "f1-score": 0.21398046398046397,
+            "support": 36.0
+          }
+        }
+      }
+    },
+    {
+      "name": "lstm",
+      "config": {
+        "seed": 42,
+        "batch_size": 32,
+        "epochs": 20,
+        "patience": 5,
+        "learning_rate": 0.002,
+        "weight_decay": 0.01,
+        "max_grad_norm": 1.0
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 1.793372322776534,
+          "validation_macro_f1": 0.1586983469688026,
+          "validation_loss": 1.7848519086837769
+        },
+        {
+          "epoch": 2,
+          "train_loss": 1.7060529810502865,
+          "validation_macro_f1": 0.1857566566269451,
+          "validation_loss": 1.7641680240631104
+        },
+        {
+          "epoch": 3,
+          "train_loss": 1.5494756841540436,
+          "validation_macro_f1": 0.2650416286997363,
+          "validation_loss": 1.701162576675415
+        },
+        {
+          "epoch": 4,
+          "train_loss": 1.2710366145855778,
+          "validation_macro_f1": 0.28642767990986956,
+          "validation_loss": 1.7601439952850342
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.9910642486329281,
+          "validation_macro_f1": 0.34534895284844963,
+          "validation_loss": 1.6774954795837402
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.7925847685406547,
+          "validation_macro_f1": 0.3773103176013261,
+          "validation_loss": 1.58844792842865
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.6039958651317943,
+          "validation_macro_f1": 0.37604314683464185,
+          "validation_loss": 1.8528058528900146
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.44480012110329786,
+          "validation_macro_f1": 0.4334443862240827,
+          "validation_loss": 1.6244827508926392
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.3291289820758429,
+          "validation_macro_f1": 0.41686665050635635,
+          "validation_loss": 1.714892029762268
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.2320016822921148,
+          "validation_macro_f1": 0.43282703367180386,
+          "validation_loss": 1.824738621711731
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.1668479170876677,
+          "validation_macro_f1": 0.4611551472649949,
+          "validation_loss": 1.9464786052703857
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.10187015388716171,
+          "validation_macro_f1": 0.46050944524234855,
+          "validation_loss": 2.055536985397339
+        },
+        {
+          "epoch": 13,
+          "train_loss": 0.06729076619102596,
+          "validation_macro_f1": 0.452489014623668,
+          "validation_loss": 2.081500768661499
+        },
+        {
+          "epoch": 14,
+          "train_loss": 0.05448215985538858,
+          "validation_macro_f1": 0.4634987581580923,
+          "validation_loss": 2.3125643730163574
+        },
+        {
+          "epoch": 15,
+          "train_loss": 0.04313843216526816,
+          "validation_macro_f1": 0.459724224294404,
+          "validation_loss": 2.279121160507202
+        },
+        {
+          "epoch": 16,
+          "train_loss": 0.02765995277701369,
+          "validation_macro_f1": 0.48402014368272034,
+          "validation_loss": 2.40040922164917
+        },
+        {
+          "epoch": 17,
+          "train_loss": 0.028442290388233805,
+          "validation_macro_f1": 0.4713691301289608,
+          "validation_loss": 2.4402294158935547
+        },
+        {
+          "epoch": 18,
+          "train_loss": 0.016528922209917855,
+          "validation_macro_f1": 0.45525444797263587,
+          "validation_loss": 2.5223212242126465
+        },
+        {
+          "epoch": 19,
+          "train_loss": 0.01578367748479983,
+          "validation_macro_f1": 0.49116021615889194,
+          "validation_loss": 2.5636799335479736
+        },
+        {
+          "epoch": 20,
+          "train_loss": 0.010641399826032485,
+          "validation_macro_f1": 0.47198211769076354,
+          "validation_loss": 2.668086528778076
+        }
+      ],
+      "train_seconds": 18.67587308306247,
+      "parameters": 410886,
+      "trainable_parameters": 410886,
+      "validation": {
+        "accuracy": 0.4965034965034965,
+        "macro_f1": 0.49116021615889194,
+        "confusion_matrix": [
+          [
+            17,
+            26,
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            18,
+            39,
+            3,
+            0,
+            4,
+            1
+          ],
+          [
+            6,
+            5,
+            23,
+            4,
+            2,
+            7
+          ],
+          [
+            4,
+            6,
+            4,
+            13,
+            4,
+            2
+          ],
+          [
+            0,
+            4,
+            10,
+            3,
+            30,
+            12
+          ],
+          [
+            2,
+            2,
+            0,
+            1,
+            11,
+            20
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.3617021276595745,
+            "recall": 0.3695652173913043,
+            "f1-score": 0.3655913978494624,
+            "support": 46.0
+          },
+          "Training & evaluation": {
+            "precision": 0.47560975609756095,
+            "recall": 0.6,
+            "f1-score": 0.5306122448979592,
+            "support": 65.0
+          },
+          "Representations & sequences": {
+            "precision": 0.575,
+            "recall": 0.48936170212765956,
+            "f1-score": 0.5287356321839081,
+            "support": 47.0
+          },
+          "Transformers & attention": {
+            "precision": 0.6190476190476191,
+            "recall": 0.3939393939393939,
+            "f1-score": 0.48148148148148145,
+            "support": 33.0
+          },
+          "Pretrained applications": {
+            "precision": 0.5769230769230769,
+            "recall": 0.5084745762711864,
+            "f1-score": 0.5405405405405406,
+            "support": 59.0
+          },
+          "Model adaptation": {
+            "precision": 0.45454545454545453,
+            "recall": 0.5555555555555556,
+            "f1-score": 0.5,
+            "support": 36.0
+          },
+          "accuracy": 0.4965034965034965,
+          "macro avg": {
+            "precision": 0.5104713390455476,
+            "recall": 0.4861494075475166,
+            "f1-score": 0.49116021615889194,
+            "support": 286.0
+          },
+          "weighted avg": {
+            "precision": 0.5084216830396896,
+            "recall": 0.4965034965034965,
+            "f1-score": 0.4962879570379967,
+            "support": 286.0
+          }
+        }
+      },
+      "test": {
+        "accuracy": 0.4867924528301887,
+        "macro_f1": 0.4773042981887951,
+        "confusion_matrix": [
+          [
+            26,
+            36,
+            4,
+            0,
+            3,
+            2
+          ],
+          [
+            14,
+            45,
+            1,
+            1,
+            2,
+            1
+          ],
+          [
+            1,
+            5,
+            16,
+            5,
+            8,
+            3
+          ],
+          [
+            0,
+            2,
+            6,
+            13,
+            5,
+            0
+          ],
+          [
+            2,
+            1,
+            2,
+            0,
+            16,
+            9
+          ],
+          [
+            1,
+            6,
+            1,
+            2,
+            13,
+            13
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.5909090909090909,
+            "recall": 0.36619718309859156,
+            "f1-score": 0.45217391304347826,
+            "support": 71.0
+          },
+          "Training & evaluation": {
+            "precision": 0.47368421052631576,
+            "recall": 0.703125,
+            "f1-score": 0.5660377358490566,
+            "support": 64.0
+          },
+          "Representations & sequences": {
+            "precision": 0.5333333333333333,
+            "recall": 0.42105263157894735,
+            "f1-score": 0.47058823529411764,
+            "support": 38.0
+          },
+          "Transformers & attention": {
+            "precision": 0.6190476190476191,
+            "recall": 0.5,
+            "f1-score": 0.5531914893617021,
+            "support": 26.0
+          },
+          "Pretrained applications": {
+            "precision": 0.3404255319148936,
+            "recall": 0.5333333333333333,
+            "f1-score": 0.4155844155844156,
+            "support": 30.0
+          },
+          "Model adaptation": {
+            "precision": 0.4642857142857143,
+            "recall": 0.3611111111111111,
+            "f1-score": 0.40625,
+            "support": 36.0
+          },
+          "accuracy": 0.4867924528301887,
+          "macro avg": {
+            "precision": 0.5036142500028279,
+            "recall": 0.48080320985366387,
+            "f1-score": 0.4773042981887951,
+            "support": 265.0
+          },
+          "weighted avg": {
+            "precision": 0.5115444957051583,
+            "recall": 0.4867924528301887,
+            "f1-score": 0.4818438756699614,
+            "support": 265.0
+          }
+        }
+      },
+      "questions": {
+        "accuracy": 0.3055555555555556,
+        "macro_f1": 0.2952016393192864,
+        "confusion_matrix": [
+          [
+            1,
+            2,
+            0,
+            0,
+            2,
+            1
+          ],
+          [
+            1,
+            1,
+            0,
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            1,
+            2,
+            2,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            1,
+            2
+          ],
+          [
+            0,
+            0,
+            1,
+            1,
+            4,
+            0
+          ],
+          [
+            1,
+            1,
+            0,
+            1,
+            1,
+            2
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.25,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.2,
+            "support": 6.0
+          },
+          "Training & evaluation": {
+            "precision": 0.16666666666666666,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.16666666666666666,
+            "support": 6.0
+          },
+          "Representations & sequences": {
+            "precision": 0.6666666666666666,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.4444444444444444,
+            "support": 6.0
+          },
+          "Transformers & attention": {
+            "precision": 0.2,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.18181818181818182,
+            "support": 6.0
+          },
+          "Pretrained applications": {
+            "precision": 0.36363636363636365,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.47058823529411764,
+            "support": 6.0
+          },
+          "Model adaptation": {
+            "precision": 0.2857142857142857,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.3076923076923077,
+            "support": 6.0
+          },
+          "accuracy": 0.3055555555555556,
+          "macro avg": {
+            "precision": 0.3221139971139971,
+            "recall": 0.3055555555555555,
+            "f1-score": 0.2952016393192864,
+            "support": 36.0
+          },
+          "weighted avg": {
+            "precision": 0.32211399711399713,
+            "recall": 0.3055555555555556,
+            "f1-score": 0.2952016393192864,
+            "support": 36.0
+          }
+        }
+      }
+    },
+    {
+      "name": "gru",
+      "config": {
+        "seed": 42,
+        "batch_size": 32,
+        "epochs": 20,
+        "patience": 5,
+        "learning_rate": 0.002,
+        "weight_decay": 0.01,
+        "max_grad_norm": 1.0
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 1.8012029908281084,
+          "validation_macro_f1": 0.14851912273637857,
+          "validation_loss": 1.7963802814483643
+        },
+        {
+          "epoch": 2,
+          "train_loss": 1.699936016810923,
+          "validation_macro_f1": 0.21267658783034146,
+          "validation_loss": 1.7955654859542847
+        },
+        {
+          "epoch": 3,
+          "train_loss": 1.5319444925759258,
+          "validation_macro_f1": 0.27371288235213725,
+          "validation_loss": 1.6710878610610962
+        },
+        {
+          "epoch": 4,
+          "train_loss": 1.2787935580937293,
+          "validation_macro_f1": 0.28234883197594834,
+          "validation_loss": 1.63885498046875
+        },
+        {
+          "epoch": 5,
+          "train_loss": 1.0184918587948262,
+          "validation_macro_f1": 0.36411604668900804,
+          "validation_loss": 1.4869998693466187
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.7931061714118367,
+          "validation_macro_f1": 0.4094835053358352,
+          "validation_loss": 1.3975502252578735
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.5908281816530982,
+          "validation_macro_f1": 0.4596133450787459,
+          "validation_loss": 1.465816855430603
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.45313923451723803,
+          "validation_macro_f1": 0.4367515615249518,
+          "validation_loss": 1.575421690940857
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.3220182785285105,
+          "validation_macro_f1": 0.48571395178232196,
+          "validation_loss": 1.5672638416290283
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.20748067677616577,
+          "validation_macro_f1": 0.4889863062913678,
+          "validation_loss": 1.6202632188796997
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.11185595539586927,
+          "validation_macro_f1": 0.5001277479349503,
+          "validation_loss": 1.7527307271957397
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.07476977538705169,
+          "validation_macro_f1": 0.5332031537693578,
+          "validation_loss": 1.7252315282821655
+        },
+        {
+          "epoch": 13,
+          "train_loss": 0.06080043468497179,
+          "validation_macro_f1": 0.5216872076614346,
+          "validation_loss": 1.838146448135376
+        },
+        {
+          "epoch": 14,
+          "train_loss": 0.029741517284405817,
+          "validation_macro_f1": 0.5077213703372726,
+          "validation_loss": 2.0487914085388184
+        },
+        {
+          "epoch": 15,
+          "train_loss": 0.02085909822631587,
+          "validation_macro_f1": 0.5460889466796605,
+          "validation_loss": 2.035757064819336
+        },
+        {
+          "epoch": 16,
+          "train_loss": 0.013445170434947118,
+          "validation_macro_f1": 0.5357236135113453,
+          "validation_loss": 2.0889108180999756
+        },
+        {
+          "epoch": 17,
+          "train_loss": 0.013112086390178468,
+          "validation_macro_f1": 0.5411376205493853,
+          "validation_loss": 2.141023874282837
+        },
+        {
+          "epoch": 18,
+          "train_loss": 0.008423990642513885,
+          "validation_macro_f1": 0.5563075267747125,
+          "validation_loss": 2.071413516998291
+        },
+        {
+          "epoch": 19,
+          "train_loss": 0.015093929547045712,
+          "validation_macro_f1": 0.5673035993712631,
+          "validation_loss": 2.0704147815704346
+        },
+        {
+          "epoch": 20,
+          "train_loss": 0.005329177067378578,
+          "validation_macro_f1": 0.5832264837438484,
+          "validation_loss": 2.1099250316619873
+        }
+      ],
+      "train_seconds": 15.732495291973464,
+      "parameters": 402566,
+      "trainable_parameters": 402566,
+      "validation": {
+        "accuracy": 0.5804195804195804,
+        "macro_f1": 0.5832264837438484,
+        "confusion_matrix": [
+          [
+            25,
+            20,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            18,
+            42,
+            1,
+            1,
+            2,
+            1
+          ],
+          [
+            7,
+            8,
+            19,
+            4,
+            6,
+            3
+          ],
+          [
+            1,
+            1,
+            4,
+            23,
+            4,
+            0
+          ],
+          [
+            0,
+            6,
+            8,
+            4,
+            38,
+            3
+          ],
+          [
+            2,
+            0,
+            1,
+            1,
+            13,
+            19
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.4716981132075472,
+            "recall": 0.5434782608695652,
+            "f1-score": 0.5050505050505051,
+            "support": 46.0
+          },
+          "Training & evaluation": {
+            "precision": 0.5454545454545454,
+            "recall": 0.6461538461538462,
+            "f1-score": 0.5915492957746479,
+            "support": 65.0
+          },
+          "Representations & sequences": {
+            "precision": 0.5757575757575758,
+            "recall": 0.40425531914893614,
+            "f1-score": 0.475,
+            "support": 47.0
+          },
+          "Transformers & attention": {
+            "precision": 0.696969696969697,
+            "recall": 0.696969696969697,
+            "f1-score": 0.696969696969697,
+            "support": 33.0
+          },
+          "Pretrained applications": {
+            "precision": 0.59375,
+            "recall": 0.6440677966101694,
+            "f1-score": 0.6178861788617886,
+            "support": 59.0
+          },
+          "Model adaptation": {
+            "precision": 0.7307692307692307,
+            "recall": 0.5277777777777778,
+            "f1-score": 0.6129032258064516,
+            "support": 36.0
+          },
+          "accuracy": 0.5804195804195804,
+          "macro avg": {
+            "precision": 0.6023998603597661,
+            "recall": 0.5771171162549987,
+            "f1-score": 0.5832264837438484,
+            "support": 286.0
+          },
+          "weighted avg": {
+            "precision": 0.5893433812251434,
+            "recall": 0.5804195804195804,
+            "f1-score": 0.5787686298585775,
+            "support": 286.0
+          }
+        }
+      },
+      "test": {
+        "accuracy": 0.5056603773584906,
+        "macro_f1": 0.4817256667017298,
+        "confusion_matrix": [
+          [
+            32,
+            31,
+            4,
+            2,
+            1,
+            1
+          ],
+          [
+            12,
+            46,
+            1,
+            2,
+            2,
+            1
+          ],
+          [
+            0,
+            7,
+            16,
+            3,
+            8,
+            4
+          ],
+          [
+            2,
+            1,
+            5,
+            13,
+            5,
+            0
+          ],
+          [
+            2,
+            3,
+            0,
+            2,
+            16,
+            7
+          ],
+          [
+            1,
+            4,
+            3,
+            5,
+            12,
+            11
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.6530612244897959,
+            "recall": 0.4507042253521127,
+            "f1-score": 0.5333333333333333,
+            "support": 71.0
+          },
+          "Training & evaluation": {
+            "precision": 0.5,
+            "recall": 0.71875,
+            "f1-score": 0.5897435897435898,
+            "support": 64.0
+          },
+          "Representations & sequences": {
+            "precision": 0.5517241379310345,
+            "recall": 0.42105263157894735,
+            "f1-score": 0.47761194029850745,
+            "support": 38.0
+          },
+          "Transformers & attention": {
+            "precision": 0.48148148148148145,
+            "recall": 0.5,
+            "f1-score": 0.49056603773584906,
+            "support": 26.0
+          },
+          "Pretrained applications": {
+            "precision": 0.36363636363636365,
+            "recall": 0.5333333333333333,
+            "f1-score": 0.43243243243243246,
+            "support": 30.0
+          },
+          "Model adaptation": {
+            "precision": 0.4583333333333333,
+            "recall": 0.3055555555555556,
+            "f1-score": 0.36666666666666664,
+            "support": 36.0
+          },
+          "accuracy": 0.5056603773584906,
+          "macro avg": {
+            "precision": 0.5013727568120016,
+            "recall": 0.48823262430332476,
+            "f1-score": 0.4817256667017298,
+            "support": 265.0
+          },
+          "weighted avg": {
+            "precision": 0.5255112211613745,
+            "recall": 0.5056603773584906,
+            "f1-score": 0.5007064154554896,
+            "support": 265.0
+          }
+        }
+      },
+      "questions": {
+        "accuracy": 0.3888888888888889,
+        "macro_f1": 0.3467439967439967,
+        "confusion_matrix": [
+          [
+            1,
+            4,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            0,
+            1,
+            4,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            1,
+            1,
+            2,
+            0,
+            2,
+            0
+          ],
+          [
+            0,
+            2,
+            0,
+            0,
+            2,
+            2
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.3333333333333333,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.2222222222222222,
+            "support": 6.0
+          },
+          "Training & evaluation": {
+            "precision": 0.3333333333333333,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.47619047619047616,
+            "support": 6.0
+          },
+          "Representations & sequences": {
+            "precision": 0.5714285714285714,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.6153846153846154,
+            "support": 6.0
+          },
+          "Transformers & attention": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 6.0
+          },
+          "Pretrained applications": {
+            "precision": 0.2222222222222222,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.26666666666666666,
+            "support": 6.0
+          },
+          "Model adaptation": {
+            "precision": 1.0,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.5,
+            "support": 6.0
+          },
+          "accuracy": 0.3888888888888889,
+          "macro avg": {
+            "precision": 0.41005291005291006,
+            "recall": 0.38888888888888884,
+            "f1-score": 0.3467439967439967,
+            "support": 36.0
+          },
+          "weighted avg": {
+            "precision": 0.41005291005291006,
+            "recall": 0.3888888888888889,
+            "f1-score": 0.34674399674399675,
+            "support": 36.0
+          }
+        }
+      }
+    },
+    {
+      "name": "transformer",
+      "config": {
+        "seed": 42,
+        "batch_size": 32,
+        "epochs": 20,
+        "patience": 5,
+        "learning_rate": 0.002,
+        "weight_decay": 0.01,
+        "max_grad_norm": 1.0
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 1.7548683983995754,
+          "validation_macro_f1": 0.3292212844733853,
+          "validation_loss": 1.6498682498931885
+        },
+        {
+          "epoch": 2,
+          "train_loss": 1.348745534163927,
+          "validation_macro_f1": 0.4608213910845489,
+          "validation_loss": 1.1912822723388672
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.9329951336540647,
+          "validation_macro_f1": 0.5411723064881442,
+          "validation_loss": 1.1461716890335083
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.6634953754529865,
+          "validation_macro_f1": 0.5416148768107153,
+          "validation_loss": 1.2169519662857056
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.4833712598415934,
+          "validation_macro_f1": 0.6092266433103873,
+          "validation_loss": 1.1049740314483643
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.3229020787813979,
+          "validation_macro_f1": 0.6272662306679447,
+          "validation_loss": 1.2775424718856812
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.19650525144990735,
+          "validation_macro_f1": 0.6384421574963669,
+          "validation_loss": 1.5594172477722168
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.09446454564300207,
+          "validation_macro_f1": 0.6231293785922263,
+          "validation_loss": 1.571160912513733
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.07417883921870581,
+          "validation_macro_f1": 0.6103360704016162,
+          "validation_loss": 1.941258192062378
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.03707989299674515,
+          "validation_macro_f1": 0.6218832778670507,
+          "validation_loss": 2.0765953063964844
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.01600279143083217,
+          "validation_macro_f1": 0.6621168763053543,
+          "validation_loss": 2.0288097858428955
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.007226722526653274,
+          "validation_macro_f1": 0.6635969599746375,
+          "validation_loss": 2.1003756523132324
+        },
+        {
+          "epoch": 13,
+          "train_loss": 0.004457934134345902,
+          "validation_macro_f1": 0.6534006393699137,
+          "validation_loss": 2.0865890979766846
+        },
+        {
+          "epoch": 14,
+          "train_loss": 0.00441423802627646,
+          "validation_macro_f1": 0.6324981801336774,
+          "validation_loss": 2.183943033218384
+        },
+        {
+          "epoch": 15,
+          "train_loss": 0.002451333884602656,
+          "validation_macro_f1": 0.6694555608713456,
+          "validation_loss": 2.132128953933716
+        },
+        {
+          "epoch": 16,
+          "train_loss": 0.0008311383321502871,
+          "validation_macro_f1": 0.6659208399671926,
+          "validation_loss": 2.2107737064361572
+        },
+        {
+          "epoch": 17,
+          "train_loss": 0.0005533628943698057,
+          "validation_macro_f1": 0.6625664620328936,
+          "validation_loss": 2.220155954360962
+        },
+        {
+          "epoch": 18,
+          "train_loss": 0.0004810793141134201,
+          "validation_macro_f1": 0.6608504647563743,
+          "validation_loss": 2.238602876663208
+        },
+        {
+          "epoch": 19,
+          "train_loss": 0.0004073492798566133,
+          "validation_macro_f1": 0.6594734532600074,
+          "validation_loss": 2.2377355098724365
+        },
+        {
+          "epoch": 20,
+          "train_loss": 0.000369901427153698,
+          "validation_macro_f1": 0.6594734532600074,
+          "validation_loss": 2.2472288608551025
+        }
+      ],
+      "train_seconds": 21.979691666085273,
+      "parameters": 483846,
+      "trainable_parameters": 483846,
+      "validation": {
+        "accuracy": 0.6573426573426573,
+        "macro_f1": 0.6694555608713456,
+        "confusion_matrix": [
+          [
+            27,
+            17,
+            0,
+            1,
+            0,
+            1
+          ],
+          [
+            14,
+            44,
+            4,
+            1,
+            2,
+            0
+          ],
+          [
+            4,
+            4,
+            32,
+            5,
+            2,
+            0
+          ],
+          [
+            2,
+            1,
+            0,
+            29,
+            0,
+            1
+          ],
+          [
+            1,
+            10,
+            9,
+            2,
+            28,
+            9
+          ],
+          [
+            0,
+            1,
+            2,
+            1,
+            4,
+            28
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.5625,
+            "recall": 0.5869565217391305,
+            "f1-score": 0.574468085106383,
+            "support": 46.0
+          },
+          "Training & evaluation": {
+            "precision": 0.5714285714285714,
+            "recall": 0.676923076923077,
+            "f1-score": 0.6197183098591549,
+            "support": 65.0
+          },
+          "Representations & sequences": {
+            "precision": 0.6808510638297872,
+            "recall": 0.6808510638297872,
+            "f1-score": 0.6808510638297872,
+            "support": 47.0
+          },
+          "Transformers & attention": {
+            "precision": 0.7435897435897436,
+            "recall": 0.8787878787878788,
+            "f1-score": 0.8055555555555556,
+            "support": 33.0
+          },
+          "Pretrained applications": {
+            "precision": 0.7777777777777778,
+            "recall": 0.4745762711864407,
+            "f1-score": 0.5894736842105263,
+            "support": 59.0
+          },
+          "Model adaptation": {
+            "precision": 0.717948717948718,
+            "recall": 0.7777777777777778,
+            "f1-score": 0.7466666666666667,
+            "support": 36.0
+          },
+          "accuracy": 0.6573426573426573,
+          "macro avg": {
+            "precision": 0.675682645762433,
+            "recall": 0.6793120983740154,
+            "f1-score": 0.6694555608713456,
+            "support": 286.0
+          },
+          "weighted avg": {
+            "precision": 0.6688509140432217,
+            "recall": 0.6573426573426573,
+            "f1-score": 0.6536695900611645,
+            "support": 286.0
+          }
+        }
+      },
+      "test": {
+        "accuracy": 0.5509433962264151,
+        "macro_f1": 0.5234146575443582,
+        "confusion_matrix": [
+          [
+            38,
+            25,
+            6,
+            0,
+            1,
+            1
+          ],
+          [
+            8,
+            49,
+            4,
+            2,
+            1,
+            0
+          ],
+          [
+            2,
+            9,
+            18,
+            3,
+            5,
+            1
+          ],
+          [
+            0,
+            0,
+            4,
+            18,
+            2,
+            2
+          ],
+          [
+            0,
+            6,
+            3,
+            4,
+            12,
+            5
+          ],
+          [
+            3,
+            6,
+            6,
+            4,
+            6,
+            11
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.7450980392156863,
+            "recall": 0.5352112676056338,
+            "f1-score": 0.6229508196721312,
+            "support": 71.0
+          },
+          "Training & evaluation": {
+            "precision": 0.5157894736842106,
+            "recall": 0.765625,
+            "f1-score": 0.6163522012578616,
+            "support": 64.0
+          },
+          "Representations & sequences": {
+            "precision": 0.43902439024390244,
+            "recall": 0.47368421052631576,
+            "f1-score": 0.45569620253164556,
+            "support": 38.0
+          },
+          "Transformers & attention": {
+            "precision": 0.5806451612903226,
+            "recall": 0.6923076923076923,
+            "f1-score": 0.631578947368421,
+            "support": 26.0
+          },
+          "Pretrained applications": {
+            "precision": 0.4444444444444444,
+            "recall": 0.4,
+            "f1-score": 0.42105263157894735,
+            "support": 30.0
+          },
+          "Model adaptation": {
+            "precision": 0.55,
+            "recall": 0.3055555555555556,
+            "f1-score": 0.39285714285714285,
+            "support": 36.0
+          },
+          "accuracy": 0.5509433962264151,
+          "macro avg": {
+            "precision": 0.5458335848130944,
+            "recall": 0.5287306209991995,
+            "f1-score": 0.5234146575443582,
+            "support": 265.0
+          },
+          "weighted avg": {
+            "precision": 0.5691529111556726,
+            "recall": 0.5509433962264151,
+            "f1-score": 0.5441056358310622,
+            "support": 265.0
+          }
+        }
+      },
+      "questions": {
+        "accuracy": 0.4166666666666667,
+        "macro_f1": 0.3788961038961039,
+        "confusion_matrix": [
+          [
+            3,
+            3,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            6,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            0,
+            2,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            2,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            2,
+            0,
+            1,
+            2,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            1,
+            1
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.375,
+            "recall": 0.5,
+            "f1-score": 0.42857142857142855,
+            "support": 6.0
+          },
+          "Training & evaluation": {
+            "precision": 0.375,
+            "recall": 1.0,
+            "f1-score": 0.5454545454545454,
+            "support": 6.0
+          },
+          "Representations & sequences": {
+            "precision": 0.5,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.4,
+            "support": 6.0
+          },
+          "Transformers & attention": {
+            "precision": 0.5,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.25,
+            "support": 6.0
+          },
+          "Pretrained applications": {
+            "precision": 0.4,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.36363636363636365,
+            "support": 6.0
+          },
+          "Model adaptation": {
+            "precision": 1.0,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.2857142857142857,
+            "support": 6.0
+          },
+          "accuracy": 0.4166666666666667,
+          "macro avg": {
+            "precision": 0.525,
+            "recall": 0.4166666666666667,
+            "f1-score": 0.3788961038961039,
+            "support": 36.0
+          },
+          "weighted avg": {
+            "precision": 0.5249999999999999,
+            "recall": 0.4166666666666667,
+            "f1-score": 0.3788961038961039,
+            "support": 36.0
+          }
+        }
+      }
+    },
+    {
+      "name": "frozen",
+      "config": {
+        "seed": 42,
+        "batch_size": 32,
+        "epochs": 16,
+        "patience": 5,
+        "learning_rate": 0.008,
+        "weight_decay": 0.01,
+        "max_grad_norm": 1.0
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 1.6834334994632933,
+          "validation_macro_f1": 0.2923070436950379,
+          "validation_loss": 1.614483118057251
+        },
+        {
+          "epoch": 2,
+          "train_loss": 1.4270361660918427,
+          "validation_macro_f1": 0.4195798716438551,
+          "validation_loss": 1.4230631589889526
+        },
+        {
+          "epoch": 3,
+          "train_loss": 1.3120792025233388,
+          "validation_macro_f1": 0.42714999997545694,
+          "validation_loss": 1.4075371026992798
+        },
+        {
+          "epoch": 4,
+          "train_loss": 1.2697655129293717,
+          "validation_macro_f1": 0.5077329027956785,
+          "validation_loss": 1.267196536064148
+        },
+        {
+          "epoch": 5,
+          "train_loss": 1.2178829819038448,
+          "validation_macro_f1": 0.4442819599387366,
+          "validation_loss": 1.2685858011245728
+        },
+        {
+          "epoch": 6,
+          "train_loss": 1.2357178217266918,
+          "validation_macro_f1": 0.45774922001258905,
+          "validation_loss": 1.2332099676132202
+        },
+        {
+          "epoch": 7,
+          "train_loss": 1.2096881454532886,
+          "validation_macro_f1": 0.48731882079817,
+          "validation_loss": 1.242613673210144
+        },
+        {
+          "epoch": 8,
+          "train_loss": 1.1859839443957974,
+          "validation_macro_f1": 0.5058697090190098,
+          "validation_loss": 1.2316699028015137
+        },
+        {
+          "epoch": 9,
+          "train_loss": 1.1687934346044193,
+          "validation_macro_f1": 0.4834775232473078,
+          "validation_loss": 1.2319413423538208
+        }
+      ],
+      "train_seconds": 3.704456749954261,
+      "parameters": 4370182,
+      "trainable_parameters": 774,
+      "validation": {
+        "accuracy": 0.513986013986014,
+        "macro_f1": 0.5077329027956785,
+        "confusion_matrix": [
+          [
+            22,
+            15,
+            1,
+            2,
+            3,
+            3
+          ],
+          [
+            8,
+            38,
+            3,
+            2,
+            4,
+            10
+          ],
+          [
+            5,
+            8,
+            22,
+            6,
+            1,
+            5
+          ],
+          [
+            2,
+            5,
+            5,
+            14,
+            3,
+            4
+          ],
+          [
+            0,
+            5,
+            9,
+            3,
+            26,
+            16
+          ],
+          [
+            0,
+            2,
+            3,
+            2,
+            4,
+            25
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.5945945945945946,
+            "recall": 0.4782608695652174,
+            "f1-score": 0.5301204819277109,
+            "support": 46.0
+          },
+          "Training & evaluation": {
+            "precision": 0.5205479452054794,
+            "recall": 0.5846153846153846,
+            "f1-score": 0.5507246376811594,
+            "support": 65.0
+          },
+          "Representations & sequences": {
+            "precision": 0.5116279069767442,
+            "recall": 0.46808510638297873,
+            "f1-score": 0.4888888888888889,
+            "support": 47.0
+          },
+          "Transformers & attention": {
+            "precision": 0.4827586206896552,
+            "recall": 0.42424242424242425,
+            "f1-score": 0.45161290322580644,
+            "support": 33.0
+          },
+          "Pretrained applications": {
+            "precision": 0.6341463414634146,
+            "recall": 0.4406779661016949,
+            "f1-score": 0.52,
+            "support": 59.0
+          },
+          "Model adaptation": {
+            "precision": 0.3968253968253968,
+            "recall": 0.6944444444444444,
+            "f1-score": 0.5050505050505051,
+            "support": 36.0
+          },
+          "accuracy": 0.513986013986014,
+          "macro avg": {
+            "precision": 0.5234168009592142,
+            "recall": 0.515054365892024,
+            "f1-score": 0.5077329027956785,
+            "support": 286.0
+          },
+          "weighted avg": {
+            "precision": 0.5344925256378631,
+            "recall": 0.513986013986014,
+            "f1-score": 0.5137254034405512,
+            "support": 286.0
+          }
+        }
+      },
+      "test": {
+        "accuracy": 0.5132075471698113,
+        "macro_f1": 0.4911019271969155,
+        "confusion_matrix": [
+          [
+            31,
+            27,
+            4,
+            1,
+            6,
+            2
+          ],
+          [
+            9,
+            39,
+            3,
+            1,
+            3,
+            9
+          ],
+          [
+            1,
+            0,
+            21,
+            9,
+            1,
+            6
+          ],
+          [
+            6,
+            1,
+            3,
+            15,
+            1,
+            0
+          ],
+          [
+            3,
+            1,
+            1,
+            4,
+            6,
+            15
+          ],
+          [
+            4,
+            4,
+            1,
+            3,
+            0,
+            24
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.5740740740740741,
+            "recall": 0.43661971830985913,
+            "f1-score": 0.496,
+            "support": 71.0
+          },
+          "Training & evaluation": {
+            "precision": 0.5416666666666666,
+            "recall": 0.609375,
+            "f1-score": 0.5735294117647058,
+            "support": 64.0
+          },
+          "Representations & sequences": {
+            "precision": 0.6363636363636364,
+            "recall": 0.5526315789473685,
+            "f1-score": 0.5915492957746479,
+            "support": 38.0
+          },
+          "Transformers & attention": {
+            "precision": 0.45454545454545453,
+            "recall": 0.5769230769230769,
+            "f1-score": 0.5084745762711864,
+            "support": 26.0
+          },
+          "Pretrained applications": {
+            "precision": 0.35294117647058826,
+            "recall": 0.2,
+            "f1-score": 0.2553191489361702,
+            "support": 30.0
+          },
+          "Model adaptation": {
+            "precision": 0.42857142857142855,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.5217391304347826,
+            "support": 36.0
+          },
+          "accuracy": 0.5132075471698113,
+          "macro avg": {
+            "precision": 0.4980270727819747,
+            "recall": 0.5070360068078286,
+            "f1-score": 0.4911019271969155,
+            "support": 265.0
+          },
+          "weighted avg": {
+            "precision": 0.5186518213155282,
+            "recall": 0.5132075471698113,
+            "f1-score": 0.5058991612798714,
+            "support": 265.0
+          }
+        }
+      },
+      "questions": {
+        "accuracy": 0.3888888888888889,
+        "macro_f1": 0.396031746031746,
+        "confusion_matrix": [
+          [
+            5,
+            1,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            3,
+            2,
+            0,
+            0,
+            0,
+            1
+          ],
+          [
+            2,
+            0,
+            3,
+            1,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            4,
+            0,
+            0,
+            0,
+            1,
+            1
+          ],
+          [
+            4,
+            1,
+            0,
+            0,
+            0,
+            1
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.22727272727272727,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.35714285714285715,
+            "support": 6.0
+          },
+          "Training & evaluation": {
+            "precision": 0.5,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.4,
+            "support": 6.0
+          },
+          "Representations & sequences": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 6.0
+          },
+          "Transformers & attention": {
+            "precision": 0.6666666666666666,
+            "recall": 0.3333333333333333,
+            "f1-score": 0.4444444444444444,
+            "support": 6.0
+          },
+          "Pretrained applications": {
+            "precision": 1.0,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.2857142857142857,
+            "support": 6.0
+          },
+          "Model adaptation": {
+            "precision": 0.3333333333333333,
+            "recall": 0.16666666666666666,
+            "f1-score": 0.2222222222222222,
+            "support": 6.0
+          },
+          "accuracy": 0.3888888888888889,
+          "macro avg": {
+            "precision": 0.6212121212121212,
+            "recall": 0.38888888888888884,
+            "f1-score": 0.396031746031746,
+            "support": 36.0
+          },
+          "weighted avg": {
+            "precision": 0.6212121212121212,
+            "recall": 0.3888888888888889,
+            "f1-score": 0.396031746031746,
+            "support": 36.0
+          }
+        }
+      }
+    },
+    {
+      "name": "finetuned",
+      "config": {
+        "seed": 42,
+        "batch_size": 32,
+        "epochs": 12,
+        "patience": 5,
+        "learning_rate": 0.0002,
+        "weight_decay": 0.01,
+        "max_grad_norm": 1.0
+      },
+      "history": [
+        {
+          "epoch": 1,
+          "train_loss": 1.6927140240466763,
+          "validation_macro_f1": 0.364516107199034,
+          "validation_loss": 1.4842629432678223
+        },
+        {
+          "epoch": 2,
+          "train_loss": 1.128339257069571,
+          "validation_macro_f1": 0.6215967949014278,
+          "validation_loss": 1.0688464641571045
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.708800957115564,
+          "validation_macro_f1": 0.6632990427007691,
+          "validation_loss": 0.8926272988319397
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.44986419663838206,
+          "validation_macro_f1": 0.6966851816573536,
+          "validation_loss": 0.8667240142822266
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.26547504588031057,
+          "validation_macro_f1": 0.7073775190725334,
+          "validation_loss": 0.8917579650878906
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.14154756111678335,
+          "validation_macro_f1": 0.7038714077527802,
+          "validation_loss": 0.978691816329956
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.07176533415851545,
+          "validation_macro_f1": 0.7039454372787706,
+          "validation_loss": 1.0911636352539062
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.031271651973459345,
+          "validation_macro_f1": 0.7163934180189978,
+          "validation_loss": 1.1738433837890625
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.01705228599435111,
+          "validation_macro_f1": 0.7207903410276991,
+          "validation_loss": 1.199427843093872
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.007747389017127386,
+          "validation_macro_f1": 0.7155450333384192,
+          "validation_loss": 1.3349674940109253
+        },
+        {
+          "epoch": 11,
+          "train_loss": 0.004810282319425904,
+          "validation_macro_f1": 0.7303525428810222,
+          "validation_loss": 1.3197327852249146
+        },
+        {
+          "epoch": 12,
+          "train_loss": 0.0035506248253891607,
+          "validation_macro_f1": 0.7259278625580937,
+          "validation_loss": 1.378546953201294
+        }
+      ],
+      "train_seconds": 16.504210583050735,
+      "parameters": 4370182,
+      "trainable_parameters": 4370182,
+      "validation": {
+        "accuracy": 0.7237762237762237,
+        "macro_f1": 0.7303525428810222,
+        "confusion_matrix": [
+          [
+            33,
+            12,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            12,
+            47,
+            1,
+            0,
+            2,
+            3
+          ],
+          [
+            4,
+            3,
+            32,
+            4,
+            2,
+            2
+          ],
+          [
+            0,
+            1,
+            3,
+            29,
+            0,
+            0
+          ],
+          [
+            0,
+            1,
+            9,
+            2,
+            39,
+            8
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            5,
+            27
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.673469387755102,
+            "recall": 0.717391304347826,
+            "f1-score": 0.6947368421052632,
+            "support": 46.0
+          },
+          "Training & evaluation": {
+            "precision": 0.6911764705882353,
+            "recall": 0.7230769230769231,
+            "f1-score": 0.706766917293233,
+            "support": 65.0
+          },
+          "Representations & sequences": {
+            "precision": 0.6956521739130435,
+            "recall": 0.6808510638297872,
+            "f1-score": 0.6881720430107527,
+            "support": 47.0
+          },
+          "Transformers & attention": {
+            "precision": 0.8285714285714286,
+            "recall": 0.8787878787878788,
+            "f1-score": 0.8529411764705882,
+            "support": 33.0
+          },
+          "Pretrained applications": {
+            "precision": 0.8125,
+            "recall": 0.6610169491525424,
+            "f1-score": 0.7289719626168224,
+            "support": 59.0
+          },
+          "Model adaptation": {
+            "precision": 0.675,
+            "recall": 0.75,
+            "f1-score": 0.7105263157894737,
+            "support": 36.0
+          },
+          "accuracy": 0.7237762237762237,
+          "macro avg": {
+            "precision": 0.7293949101379682,
+            "recall": 0.7351873531991595,
+            "f1-score": 0.7303525428810222,
+            "support": 286.0
+          },
+          "weighted avg": {
+            "precision": 0.7279093417543363,
+            "recall": 0.7237762237762237,
+            "f1-score": 0.7236964418487782,
+            "support": 286.0
+          }
+        }
+      },
+      "test": {
+        "accuracy": 0.7169811320754716,
+        "macro_f1": 0.7111915031971487,
+        "confusion_matrix": [
+          [
+            44,
+            16,
+            7,
+            1,
+            2,
+            1
+          ],
+          [
+            8,
+            51,
+            1,
+            2,
+            1,
+            1
+          ],
+          [
+            0,
+            0,
+            29,
+            4,
+            4,
+            1
+          ],
+          [
+            0,
+            0,
+            3,
+            21,
+            2,
+            0
+          ],
+          [
+            4,
+            2,
+            0,
+            1,
+            18,
+            5
+          ],
+          [
+            1,
+            1,
+            0,
+            3,
+            4,
+            27
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.7719298245614035,
+            "recall": 0.6197183098591549,
+            "f1-score": 0.6875,
+            "support": 71.0
+          },
+          "Training & evaluation": {
+            "precision": 0.7285714285714285,
+            "recall": 0.796875,
+            "f1-score": 0.7611940298507462,
+            "support": 64.0
+          },
+          "Representations & sequences": {
+            "precision": 0.725,
+            "recall": 0.7631578947368421,
+            "f1-score": 0.7435897435897436,
+            "support": 38.0
+          },
+          "Transformers & attention": {
+            "precision": 0.65625,
+            "recall": 0.8076923076923077,
+            "f1-score": 0.7241379310344828,
+            "support": 26.0
+          },
+          "Pretrained applications": {
+            "precision": 0.5806451612903226,
+            "recall": 0.6,
+            "f1-score": 0.5901639344262295,
+            "support": 30.0
+          },
+          "Model adaptation": {
+            "precision": 0.7714285714285715,
+            "recall": 0.75,
+            "f1-score": 0.7605633802816901,
+            "support": 36.0
+          },
+          "accuracy": 0.7169811320754716,
+          "macro avg": {
+            "precision": 0.7056374976419543,
+            "recall": 0.7229072520480507,
+            "f1-score": 0.7111915031971487,
+            "support": 265.0
+          },
+          "weighted avg": {
+            "precision": 0.7216561221983748,
+            "recall": 0.7169811320754716,
+            "f1-score": 0.7158419399874802,
+            "support": 265.0
+          }
+        }
+      },
+      "questions": {
+        "accuracy": 0.6666666666666666,
+        "macro_f1": 0.6748473748473748,
+        "confusion_matrix": [
+          [
+            3,
+            2,
+            0,
+            0,
+            1,
+            0
+          ],
+          [
+            1,
+            5,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            1,
+            0,
+            4,
+            1,
+            0,
+            0
+          ],
+          [
+            2,
+            0,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            1,
+            5,
+            0
+          ],
+          [
+            1,
+            0,
+            0,
+            1,
+            1,
+            3
+          ]
+        ],
+        "classification_report": {
+          "Foundations & PyTorch": {
+            "precision": 0.375,
+            "recall": 0.5,
+            "f1-score": 0.42857142857142855,
+            "support": 6.0
+          },
+          "Training & evaluation": {
+            "precision": 0.7142857142857143,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.7692307692307693,
+            "support": 6.0
+          },
+          "Representations & sequences": {
+            "precision": 1.0,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.8,
+            "support": 6.0
+          },
+          "Transformers & attention": {
+            "precision": 0.5714285714285714,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.6153846153846154,
+            "support": 6.0
+          },
+          "Pretrained applications": {
+            "precision": 0.7142857142857143,
+            "recall": 0.8333333333333334,
+            "f1-score": 0.7692307692307693,
+            "support": 6.0
+          },
+          "Model adaptation": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 6.0
+          },
+          "accuracy": 0.6666666666666666,
+          "macro avg": {
+            "precision": 0.7291666666666666,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.6748473748473748,
+            "support": 36.0
+          },
+          "weighted avg": {
+            "precision": 0.7291666666666666,
+            "recall": 0.6666666666666666,
+            "f1-score": 0.6748473748473749,
+            "support": 36.0
+          }
+        }
+      }
+    }
+  ]
+}

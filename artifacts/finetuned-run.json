@@ -1,0 +1,89 @@
+{
+  "name": "finetuned",
+  "config": {
+    "seed": 42,
+    "batch_size": 32,
+    "epochs": 12,
+    "patience": 5,
+    "learning_rate": 0.0002,
+    "weight_decay": 0.01,
+    "max_grad_norm": 1.0
+  },
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 1.6927140240466763,
+      "validation_macro_f1": 0.364516107199034,
+      "validation_loss": 1.4842629432678223
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.128339257069571,
+      "validation_macro_f1": 0.6215967949014278,
+      "validation_loss": 1.0688464641571045
+    },
+    {
+      "epoch": 3,
+      "train_loss": 0.708800957115564,
+      "validation_macro_f1": 0.6632990427007691,
+      "validation_loss": 0.8926272988319397
+    },
+    {
+      "epoch": 4,
+      "train_loss": 0.44986419663838206,
+      "validation_macro_f1": 0.6966851816573536,
+      "validation_loss": 0.8667240142822266
+    },
+    {
+      "epoch": 5,
+      "train_loss": 0.26547504588031057,
+      "validation_macro_f1": 0.7073775190725334,
+      "validation_loss": 0.8917579650878906
+    },
+    {
+      "epoch": 6,
+      "train_loss": 0.14154756111678335,
+      "validation_macro_f1": 0.7038714077527802,
+      "validation_loss": 0.978691816329956
+    },
+    {
+      "epoch": 7,
+      "train_loss": 0.07176533415851545,
+      "validation_macro_f1": 0.7039454372787706,
+      "validation_loss": 1.0911636352539062
+    },
+    {
+      "epoch": 8,
+      "train_loss": 0.031271651973459345,
+      "validation_macro_f1": 0.7163934180189978,
+      "validation_loss": 1.1738433837890625
+    },
+    {
+      "epoch": 9,
+      "train_loss": 0.01705228599435111,
+      "validation_macro_f1": 0.7207903410276991,
+      "validation_loss": 1.199427843093872
+    },
+    {
+      "epoch": 10,
+      "train_loss": 0.007747389017127386,
+      "validation_macro_f1": 0.7155450333384192,
+      "validation_loss": 1.3349674940109253
+    },
+    {
+      "epoch": 11,
+      "train_loss": 0.004810282319425904,
+      "validation_macro_f1": 0.7303525428810222,
+      "validation_loss": 1.3197327852249146
+    },
+    {
+      "epoch": 12,
+      "train_loss": 0.0035506248253891607,
+      "validation_macro_f1": 0.7259278625580937,
+      "validation_loss": 1.378546953201294
+    }
+  ],
+  "train_seconds": 16.504210583050735,
+  "parameters": 4370182,
+  "trainable_parameters": 4370182
+}

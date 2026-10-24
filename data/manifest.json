@@ -1,0 +1,197 @@
+{
+  "source_revision": "2928128b004b1113e044fb7ff1894d8b0b59ea54",
+  "source_repository": "solomonpromise/deep-learning-lab",
+  "seed": 42,
+  "split_unit": "complete source section; non-overlapping passage windows",
+  "limitation": "Sections of one lesson can appear in different splits. This measures new passages within this course, not new-course generalization.",
+  "text_origin": "Real prose from the published course notebooks; code cells and notebook outputs excluded.",
+  "labels": [
+    "Foundations & PyTorch",
+    "Training & evaluation",
+    "Representations & sequences",
+    "Transformers & attention",
+    "Pretrained applications",
+    "Model adaptation"
+  ],
+  "sources": [
+    {
+      "path": "notes/module-1/lesson-1.1.ipynb",
+      "sha256": "43fd2764d616837af743a821a4b7168af30540029a50d65cf514665f4d06d733"
+    },
+    {
+      "path": "notes/module-1/lesson-1.2.ipynb",
+      "sha256": "f457bfa796b3a690525a527ed9e9bd46fa9e67507445437659e385ecfa8e2056"
+    },
+    {
+      "path": "notes/module-1/lesson-1.3.ipynb",
+      "sha256": "147011aff099be4d0211a6fee2875ff716be8089c431cd6db8182a9344bc30fe"
+    },
+    {
+      "path": "notes/module-2/lesson-2.1.ipynb",
+      "sha256": "4422ac1bef72e75e2a64dd37286b749e5a8d07aa40e7d5f6cb3e150b18c55554"
+    },
+    {
+      "path": "notes/module-2/lesson-2.2.ipynb",
+      "sha256": "fab5d108868cee0285c8b1a798df679085493fb13a577f866ad851610b58d1d7"
+    },
+    {
+      "path": "notes/module-2/lesson-2.3.ipynb",
+      "sha256": "f1bdc2361bd757031f7f30fdc3a0e400420284028a447dd3d813796554b000de"
+    },
+    {
+      "path": "notes/module-2/lesson-2.4.ipynb",
+      "sha256": "5da7a04755a5a4d7900a6e151a87c5b9d41e113ce86b478e6bbf49d53b01b83e"
+    },
+    {
+      "path": "notes/module-3/lesson-3.1.ipynb",
+      "sha256": "a26c88c7a0cf75b0e22b30fb72b2ff474ce350e839e185c65b3a6a973cf60b7e"
+    },
+    {
+      "path": "notes/module-3/lesson-3.2.ipynb",
+      "sha256": "cb9c6f22c9c64ad25cb97768f2e81335a09d63e0d3b6050866b4b2aec3b88250"
+    },
+    {
+      "path": "notes/module-3/lesson-3.3.ipynb",
+      "sha256": "db673dd4c93b7992d1c2ebe52018045478b9cb5583fb816bcd90538d2369f819"
+    },
+    {
+      "path": "notes/module-3/lesson-3.4.ipynb",
+      "sha256": "9bebd04a07c3b29d9c3e6368570fd90222025c28dd4d8e938937d923aa1b2030"
+    },
+    {
+      "path": "notes/module-4/lesson-4.1.ipynb",
+      "sha256": "cd0f55d35d0e94fae50db97fee57faf2211f65a4b5c4630eb18106ab9af123cc"
+    },
+    {
+      "path": "notes/module-4/lesson-4.2.ipynb",
+      "sha256": "c5b72c9c4c37e0966783f3e392f233b80d085ad7802b4288a8088b8c878d9ec4"
+    },
+    {
+      "path": "notes/module-4/lesson-4.3.ipynb",
+      "sha256": "07de37438593318d1446f31d4097017957e35bca02ad920157077c51a5c7ec5d"
+    },
+    {
+      "path": "notes/module-4/lesson-4.4.ipynb",
+      "sha256": "ed02d8653db9a196bb36a18153acc2d37c6c5ffe69f30a8c53ac3360185e2b70"
+    },
+    {
+      "path": "notes/module-5/lesson-5.1.ipynb",
+      "sha256": "d516938f6058efc3abf50157a431ed020650c481bb062cb128175a2fbfc72c5f"
+    },
+    {
+      "path": "notes/module-5/lesson-5.2.ipynb",
+      "sha256": "8728f67c267c8ec94b8662cf81708838490d81422600f6137f66a5f05cf80a4e"
+    },
+    {
+      "path": "notes/module-5/lesson-5.3.ipynb",
+      "sha256": "db328ef28a6216d1d96f12ebb044f44088070114c4cc101c4e509ad2878d624a"
+    },
+    {
+      "path": "notes/module-5/lesson-5.4.ipynb",
+      "sha256": "32ada4c7c2f32ab93ba4e205162bc5b6e3031e7e99254b3fcab8c8977a8b4cc2"
+    },
+    {
+      "path": "notes/module-5/lesson-5.5.ipynb",
+      "sha256": "ec7c5337396299618fbc2f7529be7f77738e8952e26b2122e9365a97552658aa"
+    },
+    {
+      "path": "notes/module-5/lesson-5.6.ipynb",
+      "sha256": "2294ad1e5ea790e69e85651e8cdb975cdff318ceb1085d08ac87e1eb72b23c5d"
+    },
+    {
+      "path": "notes/module-6/lesson-6.1.ipynb",
+      "sha256": "118ce76c318d3d78a74853afe1ba9625e2e5b9b9b31d9d6ae785324e71bd6136"
+    },
+    {
+      "path": "notes/module-6/lesson-6.2.ipynb",
+      "sha256": "680d6f396fa7d22b6e19a8b0fc66af72d804a8eb63133981cf179554b1640d4f"
+    },
+    {
+      "path": "notes/module-6/lesson-6.3.ipynb",
+      "sha256": "63c1911c0d3405a55c1b80105f78aa0551f96471e0cc1643dddb81cbfdf59856"
+    },
+    {
+      "path": "notes/module-6/lesson-6.4.ipynb",
+      "sha256": "3dd82d12cab723ddd6bc34b873411ab9a5d3b65c32ed3390dea5384082abebdc"
+    },
+    {
+      "path": "notes/module-6/lesson-6.5.ipynb",
+      "sha256": "5e2380f467adb02075f9da62ae2cf81ebaf8f87c980e2ee07963e8752bc0525b"
+    },
+    {
+      "path": "notes/module-6/lesson-6.6.ipynb",
+      "sha256": "16ea062d13b57a7dc79107d263486f4e1ef45f750ad3a9bb6ef5ff64eb32334c"
+    },
+    {
+      "path": "notes/module-7/lesson-7.1.ipynb",
+      "sha256": "89d53e5ff0a5e99c81ecdb520d09f8397a84e2a2a8025b47b04a89b0d918a5b2"
+    },
+    {
+      "path": "notes/module-7/lesson-7.2.ipynb",
+      "sha256": "5e2a984b85b0a2915e01eda81129325fbd3d6f1468b2438ceefea921606c9e37"
+    },
+    {
+      "path": "notes/module-7/lesson-7.3.ipynb",
+      "sha256": "99f134735103483177cef32ee54f59d9ce8a3ecea99b9ba6475c9b9cc76f3a98"
+    },
+    {
+      "path": "notes/module-7/lesson-7.4.ipynb",
+      "sha256": "450a15e2a44d5d7535a2bdef30247777ab4f6568b75c7e2cf99cb85e888f2153"
+    },
+    {
+      "path": "notes/module-7/lesson-7.5.ipynb",
+      "sha256": "322990c7e9600800729b13b8b6271311cb149824ad19d9c9835cd92d3cdcdc57"
+    },
+    {
+      "path": "notes/module-7/lesson-7.6.ipynb",
+      "sha256": "3e0a6cadbcf4e78d1fa012cc287846d402021d2f1ddd867cd1e9d215df3d084f"
+    },
+    {
+      "path": "notes/module-7/lesson-7.7.ipynb",
+      "sha256": "9a96aa07572bfd708ca58a6cd842cbb8315993d245d925bee10f7986b562a628"
+    },
+    {
+      "path": "notes/module-8/lesson-8.1.ipynb",
+      "sha256": "05d98ea47ba526b986093eab9a942aaa20b26947011622bd95ac7766cdae7d71"
+    },
+    {
+      "path": "notes/module-8/lesson-8.2.ipynb",
+      "sha256": "3a7495bfb0d4a24585b8b13c456b32641da3f01760237d87b7381f13299320b2"
+    },
+    {
+      "path": "notes/module-8/lesson-8.3.ipynb",
+      "sha256": "48f2a9842f88faa99c836e23565b268a3b2b865d7825811ee6dd7fa0aa935dde"
+    },
+    {
+      "path": "notes/module-8/lesson-8.4.ipynb",
+      "sha256": "61c42c2d07ab57952f23d82298e9a963006a3bb2eb586e7efae695c8b76799a4"
+    },
+    {
+      "path": "notes/module-8/lesson-8.5.ipynb",
+      "sha256": "331d5492e0bc673306562d064f8d4b782e7fd6adb4f2a77ffe2fafd0625e2b9a"
+    },
+    {
+      "path": "notes/module-8/lesson-8.6.ipynb",
+      "sha256": "7ada90ceaf58498c1ccdfa4cef9bbb6b398dbf48796ea00d722c537e7e27343c"
+    },
+    {
+      "path": "notes/module-8/lesson-8.7.ipynb",
+      "sha256": "2a7591ae1f6ee9a49e67312ec0f5b252aad674039138b3a0976b17d40d60bc53"
+    }
+  ],
+  "rows": 1752,
+  "groups": 337,
+  "split_counts": {
+    "train": 1201,
+    "validation": 286,
+    "test": 265
+  },
+  "per_label": {
+    "Foundations & PyTorch": 339,
+    "Training & evaluation": 411,
+    "Representations & sequences": 263,
+    "Transformers & attention": 202,
+    "Pretrained applications": 310,
+    "Model adaptation": 227
+  }
+}

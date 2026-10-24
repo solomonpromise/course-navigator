@@ -1,0 +1,8 @@
+{
+  "temperature": 2.363842010498047,
+  "confidence_threshold": 0.6250000000000002,
+  "validation_coverage": 0.7447552447552448,
+  "validation_accepted_accuracy": 0.812206572769953,
+  "minimum_query_similarity": 0.02,
+  "note": "Heuristic tentative-result handling; softmax confidence is not a correctness guarantee or a validated out-of-domain detector."
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-24",
+  "dataset": {
+    "passages": 1752,
+    "sections": 337,
+    "train": 1201,
+    "validation": 286,
+    "test": 265,
+    "section_split_overlap": 0
+  },
+  "reference_training": {
+    "models": [
+      "rnn",
+      "lstm",
+      "gru",
+      "transformer",
+      "frozen",
+      "finetuned"
+    ],
+    "device": "CPU",
+    "seed": 42
+  },
+  "notebook_execution": [
+    {
+      "notebook": "01_rnn.ipynb",
+      "code_cells": 14,
+      "seconds": 4.695928959059529,
+      "errors": 0
+    },
+    {
+      "notebook": "02_lstm_gru.ipynb",
+      "code_cells": 8,
+      "seconds": 2.513475958025083,
+      "errors": 0
+    },
+    {
+      "notebook": "03_transformer.ipynb",
+      "code_cells": 10,
+      "seconds": 2.471059957984835,
+      "errors": 0
+    },
+    {
+      "notebook": "04_pretrained.ipynb",
+      "code_cells": 10,
+      "seconds": 3.764878832967952,
+      "errors": 0
+    },
+    {
+      "notebook": "05_deployment.ipynb",
+      "code_cells": 6,
+      "seconds": 3.753474208060652,
+      "errors": 0
+    }
+  ],
+  "focused_python_tests": 5,
+  "javascript_tokenizer_fixtures": 48,
+  "onnx_max_logit_error": 6.67572021484375e-06,
+  "browser_checks": [
+    "Local native WASM inference: attention topic and relevant 6.3 section",
+    "Ambiguous validation question: tentative topic, relevant source excerpts",
+    "Unrelated recipe question remains tentative; no claim of complete OOD rejection",
+    "150-word input: visible 94-WordPiece truncation explanation",
+    "390px viewport: document and scroll widths both 390"
+  ],
+  "deployment": {
+    "status": "Prepared; public smoke test pending"
+  }
+}
