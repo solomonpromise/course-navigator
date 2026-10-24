@@ -63,6 +63,26 @@
     "390px viewport: document and scroll widths both 390"
   ],
   "deployment": {
-    "status": "Prepared; public smoke test pending"
+    "status": "Public native-browser inference verified",
+    "url": "https://solomonpromise.github.io/course-navigator/",
+    "verified_app_commit": "c29a54e7b7a682752fc905dde25dcd6e732f491d",
+    "workflow_run": "https://github.com/solomonpromise/course-navigator/actions/runs/40081174198",
+    "example": "Attention question routed to Transformers & attention with the 6.3 Scaling and Softmax source link",
+    "observed_inference_ms": 14,
+    "timing_note": "One warm prediction after asset loading, not a latency benchmark",
+    "first_load_fix": "Parallel model/runtime downloads, visible progress and a longer slow-connection timeout; verified using the v2 release URL after cached v1 HTML was observed.",
+    "public_notebook_downloads": "All five returned 200 and matched the executed reference notebooks byte for byte."
+  },
+  "platform": {
+    "location": "Local platform integration; not pushed to the platform repository",
+    "reading_pages": 6,
+    "notebooks": 5,
+    "lessons_unchanged": 41,
+    "checks": [
+      "File references and unique anchors",
+      "Notebook objectives render",
+      "ZIP CRC and exact notebook bytes",
+      "Earlier unrelated local edits preserved"
+    ]
   }
 }
